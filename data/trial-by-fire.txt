@@ -5,9 +5,10 @@ mission "Trial By Fire: Level 1" # early human tech
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 250
-		on complete
+		"combat rating" > 50
+	on complete
 		event "TBF Level 1"
+		payment 1000000
 
 event "TBF Level 1"
 	
@@ -80,9 +81,10 @@ mission "Trial By Fire: Level 2" # define
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 600
-		on complete
-		event "TBF Level 2"
+		"combat rating" > 125
+	on complete
+		event "TBF Level 2
+		payment 2500000
 
 event "TBF Level 2"
 	
