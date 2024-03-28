@@ -86,6 +86,16 @@ event "TBF Level 2"
 		add shipyard "TBF Ships 2"
 
 outfitter "TBF Outfits 2" # define
+	"Large Radar Jammer"
+	"Ramscoop"
+	"Scram Drive"
+	"Cargo Scanner"
+	"Outfit Scanner"
+	"Asteroid Scanner"
+	"Tactical Scanner"
+	"Bunk Room"
+	"Brig"
+	"Interference Plating"
 	
 
 
