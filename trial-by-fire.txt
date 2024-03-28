@@ -1,0 +1,93 @@
+# Level 1
+
+mission "Trial By Fire: Level 1" # early human tech
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 250
+		on complete
+		event "TBF Level 1"
+
+event "TBF Level 1"
+	
+	planet "Watcher"
+		add outfitter "TBF Outfits 1"
+		add shipyard "TBF Ships 1"
+
+outfitter "TBF Outfits 1" # misc low level human tech
+	"Cooling Ducts"
+	"Water Coolant System"
+	"D14-RN Shield Generator"
+	"D23-QP Shield Generator"
+	"D41-HY Shield Generator"
+	"Small Radar Jammer"
+	"Hyperdrive"
+	"Asteroid Scanner"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Fuel Pod"
+	"Laser Rifle"
+	"X1050 Ion Engines"
+	"X1700 Ion Thruster"
+	"X2700 Ion Thruster"
+	"X1200 Ion Steering"
+	"X2200 Ion Steering"
+	"X1100 Ion Reverse Thruster"
+	"Chipmunk Plasma Thruster"
+	"Chipmunk Plasma Steering"
+	"Capybara Reverse Thruster"
+	"Energy Blaster"
+	"Twin Blaster"
+	"Blaster Turret"
+	"Modified Blaster"
+	"Modified Blaster Turret"
+	"Beam Laser"
+	"Laser Turret"
+
+
+shipyard "TBF Ships 1" # light freighters, interceptors, some transports
+	"Clipper"
+	"Freighter"
+	"Hauler"
+	"Star Barge"
+	"Argosy"
+	"Berserker"
+	"Fury"
+	"Hawk"
+	"Scrapper"
+	"Sparrow"
+	"Wasp"
+	"Flivver"
+	"Heavy Shuttle"
+	"Scout"
+	"Shuttle"
+	
+	
+
+
+
+# Level 2
+
+mission "Trial By Fire: Level 2" # define
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 250 # adjust
+		on complete
+		event "TBF Level 2"
+
+event "TBF Level 2"
+	
+	planet "Watcher"
+		add outfitter "TBF Outfits 2"
+		add shipyard "TBF Ships 2"
+
+outfitter "TBF Outfits 1" # define
+	
+
+
+shipyard "TBF Ships 2" # define
+	

@@ -1,0 +1,14 @@
+start "remnant test"
+	name "Remnant Test"
+	description `test description`
+	thumbnail "scene/lobby"
+	date 1 1 3000
+	system "Arculus"
+	planet "Viminal"
+	conversation "default intro"
+	account
+		credits 25000000
+		score 400
+	set "license: Pilot's"
+	set "license: Remnant"
+	set "license: Remnant Capital"
