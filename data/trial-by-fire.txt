@@ -75,7 +75,7 @@ mission "Trial By Fire: Level 2" # define
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 250 # adjust
+		"combat rating" > 600
 		on complete
 		event "TBF Level 2"
 
@@ -85,9 +85,54 @@ event "TBF Level 2"
 		add outfitter "TBF Outfits 2"
 		add shipyard "TBF Ships 2"
 
-outfitter "TBF Outfits 1" # define
+outfitter "TBF Outfits 2" # define
+	"Large Radar Jammer"
+	"Ramscoop"
+	"Scram Drive"
+	"Cargo Scanner"
+	"Outfit Scanner"
+	"Asteroid Scanner"
+	"Tactical Scanner"
+	"Bunk Room"
+	"Brig"
+	"Interference Plating"
+	"Twin Modified Blaster"
+	"Quad Blaster Turret"
+	"Heavy Laser"
+	"Mining Laser"
+	"Mining Laser Turret"
+	"Tractor Beam"
+	"Anti-Missile Turret"
+	"Heavy Anti-Missile Turret"
+	"Proton Gun"
+	"Plasma Cannon"
+	"Meteor Missile"
+	"Meteor Missile Box"
+	"Meteor Missile Launcher"
+	"Meteor Missile Pod"
+	"Sidewinder Missile"
+	"Sidewinder Missile Pod"
+	"Javelin"
+	"Javelin Storage Crate"
+	"Javelin Pod"
+	"Javelin Mini Pod"
+	"Torpedo"
+	"Heavy Rocket"
+	"Heavy Rocket Pod"
+	"Gatling Gun Ammo"
+	"Bullet Boxes"
+	
 	
 
 
-shipyard "TBF Ships 2" # define
-	
+shipyard "TBF Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, arrow, sunder+drones
+	"Arrow"
+	"Blackbird"
+	"Bounder"
+	"Mining Drone"
+	"Sunder"
+	"Quicksilver"
+	"Headhunter"
+	"Modified Argosy"
+	"Hauler II"
+	"Hauler III"
