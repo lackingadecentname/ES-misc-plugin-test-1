@@ -45,6 +45,11 @@ outfitter "TBF Outfits 1" # misc low level human tech
 	"Modified Blaster Turret"
 	"Beam Laser"
 	"Laser Turret"
+	"Supercapacitor"
+	"LP036a Battery Pack"
+	"KP-6 Photovoltaic Panel"
+	"nGVF-AA Fuel Cell"
+	"nGVF-BB Fuel Cell"
 
 
 shipyard "TBF Ships 1" # light freighters, interceptors, some transports
@@ -121,6 +126,11 @@ outfitter "TBF Outfits 2" # define
 	"Heavy Rocket Pod"
 	"Gatling Gun Ammo"
 	"Bullet Boxes"
+	"LP072a Battery Pack"
+	"KP-6 Photovoltaic Array"
+	"nGVF-CC Fuel Cell"
+	"RT-I Radiothermal"
+	
 	
 	
 
