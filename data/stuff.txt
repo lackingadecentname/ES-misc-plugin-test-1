@@ -12,7 +12,7 @@ mission "Sheragi Test 2"
 	source "Yniu Ena"
 	destination "Yniu Eiu"
 	to offer
-		"combat rating" > 35000
+		"combat rating" > 40000
 	on complete
 		event "Sheragi Test 2"
 
@@ -21,7 +21,7 @@ mission "Sheragi Test 3"
 	source "Yniu Ena"
 	destination "Yniu Eiu"
 	to offer
-		"combat rating" > 100000
+		"combat rating" > 250000
 	on complete
 		event "Sheragi Test 3"
 
