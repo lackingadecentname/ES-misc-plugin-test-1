@@ -1,22 +1,21 @@
 # Level 1
 
-mission "Trial By Fire: Level 1" # early human tech
+mission "Mega Shipyard: Level 1" # early human tech
 	landing
 	source "New Boston"
 	destination "Watcher"
 	to offer
 		"combat rating" > 50
 	on complete
-		event "TBF Level 1"
+		event "MS Level 1"
 		payment 1000000
 
-event "TBF Level 1"
-	
+event "MS Level 1"
 	planet "Watcher"
-		add outfitter "TBF Outfits 1"
-		add shipyard "TBF Ships 1"
+		add outfitter "MS Outfits 1"
+		add shipyard "MS Ships 1"
 
-outfitter "TBF Outfits 1" # misc low level human tech
+outfitter "MS Outfits 1" # misc low level human tech
 	"Cooling Ducts"
 	"Water Coolant System"
 	"D14-RN Shield Generator"
@@ -53,7 +52,7 @@ outfitter "TBF Outfits 1" # misc low level human tech
 	"nGVF-BB Fuel Cell"
 
 
-shipyard "TBF Ships 1" # light freighters, interceptors, some transports
+shipyard "MS Ships 1" # light freighters, interceptors, some transports
 	"Clipper"
 	"Freighter"
 	"Hauler"
@@ -76,23 +75,22 @@ shipyard "TBF Ships 1" # light freighters, interceptors, some transports
 
 # Level 2
 
-mission "Trial By Fire: Level 2" # define
+mission "Mega Shipyard: Level 2" # define
 	landing
 	source "New Boston"
 	destination "Watcher"
 	to offer
 		"combat rating" > 125
 	on complete
-		event "TBF Level 2"
+		event "MS Level 2"
 		payment 2500000
 
-event "TBF Level 2"
-	
+event "MS Level 2"
 	planet "Watcher"
-		add outfitter "TBF Outfits 2"
-		add shipyard "TBF Ships 2"
+		add outfitter "MS Outfits 2"
+		add shipyard "MS Ships 2"
 
-outfitter "TBF Outfits 2" # define
+outfitter "MS Outfits 2" # define
 	"Large Radar Jammer"
 	"Ramscoop"
 	"Scram Drive"
@@ -131,12 +129,8 @@ outfitter "TBF Outfits 2" # define
 	"KP-6 Photovoltaic Array"
 	"nGVF-CC Fuel Cell"
 	"RT-I Radiothermal"
-	
-	
-	
 
-
-shipyard "TBF Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, arrow, sunder+drones
+shipyard "MS Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, arrow, sunder+drones
 	"Arrow"
 	"Blackbird"
 	"Bounder"
@@ -150,29 +144,28 @@ shipyard "TBF Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, ar
 
 # Level 3
 
-mission "Trial By Fire: Level 3" # pirate ships and outits
+mission "Mega Shipyard: Level 3" # pirate ships and outits
 	landing
 	source "New Boston"
 	destination "Watcher"
 	to offer
 		"combat rating" > 175
 	on complete
-		event "TBF Level 3"
+		event "MS Level 3"
 		payment 500000
 
-event "TBF Level 3"
-	
+event "MS Level 3"
 	planet "Watcher"
-		add outfitter "TBF Outfits 3"
-		add shipyard "TBF Ships 3"
+		add outfitter "MS Outfits 3"
+		add shipyard "MS Ships 3"
 
-outfitter "TBF Outfits 3" # pirate-exclusive outfits
+outfitter "MS Outfits 3" # pirate-exclusive outfits
 	"Interference Plating"
 	"Gatling Gun"
 	"Gatling Turret"
 	"Javelin Turret"
 
-shipyard "TBF Ships 3" # pirate-exclusive ships
+shipyard "MS Ships 3" # pirate-exclusive ships
 	"Mammoth"
 	"Modified Argosy"
 	"Nighthawk"
@@ -185,23 +178,22 @@ shipyard "TBF Ships 3" # pirate-exclusive ships
 
 # Level 4
 
-mission "Trial By Fire: Level 4" # define
+mission "Mega Shipyard: Level 4" # define
 	landing
 	source "New Boston"
 	destination "Watcher"
 	to offer
 		"combat rating" > 300
 	on complete
-		event "TBF Level 4"
+		event "MS Level 4"
 		payment 500000 # adjust
 
-event "TBF Level 4"
-	
+event "MS Level 4"
 	planet "Watcher"
-		add outfitter "TBF Outfits 4"
-		add shipyard "TBF Ships 4"
+		add outfitter "MS Outfits 4"
+		add shipyard "MS Ships 4"
 
-outfitter "TBF Outfits 4" # define
+outfitter "MS Outfits 4" # define
 	"Liquid Nitrogen Cooler"
 	"Liquid Helium Cooler"
 	"Heavy Laser Turret"
@@ -236,7 +228,7 @@ outfitter "TBF Outfits 4" # define
 	"NT-200 Nucleovoltaic"
 	"Dwarf Core"
 
-shipyard "TBF Ships 4" # remaining light warships, some medium warships, nest, fighters
+shipyard "MS Ships 4" # remaining light warships, some medium warships, nest, fighters
 	"Raven"
 	"Firebird"
 	"Bastion"
