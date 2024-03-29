@@ -83,7 +83,7 @@ mission "Trial By Fire: Level 2" # define
 	to offer
 		"combat rating" > 125
 	on complete
-		event "TBF Level 2
+		event "TBF Level 2"
 		payment 2500000
 
 event "TBF Level 2"
@@ -148,3 +148,28 @@ shipyard "TBF Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, ar
 	"Modified Argosy"
 	"Hauler II"
 	"Hauler III"
+
+
+# Level 3
+
+mission "Trial By Fire: Level 3" # define
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 125 # adjust
+	on complete
+		event "TBF Level 3"
+		payment 2500000 # adjust
+
+event "TBF Level 2"
+	
+	planet "Watcher"
+		add outfitter "TBF Outfits 3"
+		add shipyard "TBF Ships 3"
+
+outfitter "TBF Outfits 2" # define
+	
+
+shipyard "TBF Ships 3" # define
+	
