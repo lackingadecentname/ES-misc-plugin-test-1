@@ -161,13 +161,13 @@ mission "Trial By Fire: Level 3" # pirate ships and outits
 		event "TBF Level 3"
 		payment 500000
 
-event "TBF Level 2"
+event "TBF Level 3"
 	
 	planet "Watcher"
 		add outfitter "TBF Outfits 3"
 		add shipyard "TBF Ships 3"
 
-outfitter "TBF Outfits 2" # pirate-exclusive outfits
+outfitter "TBF Outfits 3" # pirate-exclusive outfits
 	"Interference Plating"
 	"Gatling Gun"
 	"Gatling Turret"
