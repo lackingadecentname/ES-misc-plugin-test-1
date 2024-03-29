@@ -148,7 +148,7 @@ shipyard "TBF Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, ar
 	"Hauler III"
 
 
-# Level 4
+# Level 3
 
 mission "Trial By Fire: Level 3" # pirate ships and outits
 	landing
@@ -204,5 +204,13 @@ event "TBF Level 4"
 outfitter "TBF Outfits 4" # define
 	
 
-shipyard "TBF Ships 4" # define
-	
+shipyard "TBF Ships 4" # remaining light warships, some medium warships, nest, fighters
+	"Raven"
+	"Firebird"
+	"Bastion"
+	"Corvette"
+	"Nest"
+	"Barb"
+	"Boxwing"
+	"Dagger"
+	"Finch"
