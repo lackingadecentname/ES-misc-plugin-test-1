@@ -238,3 +238,27 @@ shipyard "MS Ships 4" # remaining light warships, some medium warships, nest, fi
 	"Boxwing"
 	"Dagger"
 	"Finch"
+
+# Level 5
+
+
+mission "Mega Shipyard: Level 5" # define
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 400 # open to adjustment
+	on complete
+		event "MS Level 5"
+		payment 1000000 # placeholder
+
+event "MS Level 5"
+	planet "Watcher"
+		add outfitter "MS Outfits 5"
+		add shipyard "MS Ships 5"
+
+outfitter "MS Outfits 5" # define
+	
+
+shipyard "MS Ships 5" # define
+	
