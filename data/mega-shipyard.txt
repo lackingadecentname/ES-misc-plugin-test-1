@@ -311,3 +311,36 @@ Shipyard "MS Ships 6" # navy ships
 	"Rainmaker"
 	"Surveillance Drone"
 	"Lance"
+
+
+# Level 7
+
+mission "Mega Shipyard: Level 7" # Fusion Reactors. Falcon/Leviathan, amd T5 Engines
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 850
+	on complete
+		event "MS Level 7"
+		payment 750000
+
+event "MS Level 7"
+	planet "Watcher"
+		add outfitter "MS Outfits 7"
+		add shipyard "MS Ships 7"
+
+outfitter "MS Outfits 7" # fusion reactors + t5 engines
+	"LP576a Battery Pack"
+	"Fusion Reactor"
+	"Armageddon Core"
+	"X5700 Ion Thruster"
+	"X5200 Ion Steering"
+	"Tyrant Plasma Thruster"
+	"Tyrant Plasma Steering"
+	"A860 Atomic Thruster"
+	"A865 Atomic Steering"
+
+Shipyard "MS Ships 7" # falcon + levi
+	"Leviathan"
+	"Falcon"
