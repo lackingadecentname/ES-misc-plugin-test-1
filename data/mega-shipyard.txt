@@ -247,7 +247,7 @@ mission "Mega Shipyard: Level 5" # define
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 550
+		"combat rating" > 500
 	on complete
 		event "MS Level 5"
 		payment 2000000
@@ -282,3 +282,32 @@ shipyard "MS Ships 5" # medium warships, roost, mule, heavy freighters
 	"Behemoth"
 	"Bulk Freighter"
 	
+
+# Level 6
+
+mission "Mega Shipyard: Level 6" # Navy License
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 725
+	on complete
+		event "MS Level 6"
+		payment 2500000
+		set "license: Navy"
+
+event "MS Level 6"
+	planet "Watcher"
+		add outfitter "MS Outfits 6"
+		add shipyard "MS Ships 6"
+
+outfitter "MS Outfits 6" # surveillance pod (lol)
+	"Surveillance Pod"
+
+Shipyard "MS Ships 6" # navy ships
+	"Combat Drone"
+	"Frigate"
+	"Gunboat"
+	"Rainmaker"
+	"Surveillance Drone"
+	"Lance"
