@@ -257,8 +257,27 @@ event "MS Level 5"
 		add outfitter "MS Outfits 5"
 		add shipyard "MS Ships 5"
 
-outfitter "MS Outfits 5" # define
-	
+outfitter "MS Outfits 5" # improved shields, plasma turrets, t4 plasmas and atomics, fission reactors and larger batteries
+	"D67-TM Shield Generator"
+	"D94-YV Shield Generator"
+	"Plasma Turret"
+	"Orca Plasma Thruster"
+	"Orca Plasma Steering"
+	"A520 Atomic Thruster"
+	"A525 Atomic Steering"
+	"LP288a Battery Pack"
+	"Fission Reactor"
+	"Breeder Reactor"
 
-shipyard "MS Ships 5" # define
+shipyard "MS Ships 5" # medium warships, roost, mule, heavy freighters
+	"Aerie"
+	"Corvette"
+	"Manta"
+	"Osprey"
+	"Splinter"
+	"Roost"
+	"Mule"
+	"Container Transport"
+	"Behemoth"
+	"Bulk Freighter"
 	
