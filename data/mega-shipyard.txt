@@ -247,7 +247,7 @@ mission "Mega Shipyard: Level 5" # define
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 550
+		"combat rating" > 500
 	on complete
 		event "MS Level 5"
 		payment 2000000
@@ -290,10 +290,10 @@ mission "Mega Shipyard: Level 6" # Navy License
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > #
+		"combat rating" > 725
 	on complete
 		event "MS Level 6"
-		payment #
+		payment 2500000
 		set "license: Navy"
 
 event "MS Level 6"
