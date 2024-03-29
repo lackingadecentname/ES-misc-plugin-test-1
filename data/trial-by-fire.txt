@@ -190,7 +190,7 @@ mission "Trial By Fire: Level 4" # define
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 175 # adjust
+		"combat rating" > 300
 	on complete
 		event "TBF Level 4"
 		payment 500000 # adjust
@@ -202,7 +202,17 @@ event "TBF Level 4"
 		add shipyard "TBF Ships 4"
 
 outfitter "TBF Outfits 4" # define
-	
+	"Liquid Nitrogen Cooler"
+	"Liquid Helium Cooler"
+	"Heavy Laser Turret"
+	"Proton Turret"
+	"Sidewinder Missile Rack"
+	"Sidewinder Missile Launcher"
+	"Torpedo Storage Rack"
+	"Torpedo Launcher"
+	"Torpedo Pod"
+	"Heavy Rocket Rack"
+	"Heavy Rocket Launcher"
 
 shipyard "TBF Ships 4" # remaining light warships, some medium warships, nest, fighters
 	"Raven"
