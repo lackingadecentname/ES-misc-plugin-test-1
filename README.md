@@ -2,17 +2,22 @@ Just a plugin i made for Endless Sky as a test, don't expect much, just using th
 
 
 # mega shipyard template
-mission "Mega Shipyard: Level #" # change number
+mission "Mega Shipyard: Level #"
 	landing
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > # change number
+		"combat rating" > #
 	on complete
 		event "MS Level #"
-		payment # change number
+		payment #
 
 event "MS Level #"
 	planet "Watcher"
 		add outfitter "MS Outfits #"
 		add shipyard "MS Ships #"
+
+outfitter "MS Outfits #"
+	
+
+Shipyard "MS Ships #"
