@@ -229,6 +229,12 @@ outfitter "TBF Outfits 4" # define
 	"A255 Atomic Steering"
 	"A375 Atomic Steering"
 	"AR120 Reverse Thruster"
+	"LP144a Battery Pack"
+	"nGVF-DD Fuel Cell"
+	"nGVF-EE Fuel Cell"
+	"S3 Thermionic"
+	"NT-200 Nucleovoltaic"
+	"Dwarf Core"
 
 shipyard "TBF Ships 4" # remaining light warships, some medium warships, nest, fighters
 	"Raven"
