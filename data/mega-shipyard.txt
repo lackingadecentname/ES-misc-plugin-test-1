@@ -260,6 +260,7 @@ event "MS Level 5"
 outfitter "MS Outfits 5" # improved shields, plasma turrets, t4 plasmas and atomics, fission reactors and larger batteries
 	"D67-TM Shield Generator"
 	"D94-YV Shield Generator"
+	"Particle Cannon"
 	"Plasma Turret"
 	"Orca Plasma Thruster"
 	"Orca Plasma Steering"
