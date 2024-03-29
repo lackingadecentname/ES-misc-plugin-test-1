@@ -186,7 +186,7 @@ mission "Mega Shipyard: Level 4" # define
 		"combat rating" > 300
 	on complete
 		event "MS Level 4"
-		payment 500000 # adjust
+		payment 4000000
 
 event "MS Level 4"
 	planet "Watcher"
