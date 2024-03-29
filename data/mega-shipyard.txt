@@ -320,10 +320,10 @@ mission "Mega Shipyard: Level 7" # Fusion Reactors. Falcon/Leviathan, amd T5 Eng
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > #
+		"combat rating" > 850
 	on complete
 		event "MS Level 7"
-		payment #
+		payment 750000
 
 event "MS Level 7"
 	planet "Watcher"
