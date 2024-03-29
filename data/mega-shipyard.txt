@@ -247,10 +247,10 @@ mission "Mega Shipyard: Level 5" # define
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 400 # open to adjustment
+		"combat rating" > 550
 	on complete
 		event "MS Level 5"
-		payment 1000000 # placeholder
+		payment 2000000
 
 event "MS Level 5"
 	planet "Watcher"
