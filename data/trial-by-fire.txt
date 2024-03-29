@@ -83,7 +83,7 @@ mission "Trial By Fire: Level 2" # define
 	to offer
 		"combat rating" > 125
 	on complete
-		event "TBF Level 2
+		event "TBF Level 2"
 		payment 2500000
 
 event "TBF Level 2"
@@ -102,7 +102,6 @@ outfitter "TBF Outfits 2" # define
 	"Tactical Scanner"
 	"Bunk Room"
 	"Brig"
-	"Interference Plating"
 	"Twin Modified Blaster"
 	"Quad Blaster Turret"
 	"Heavy Laser"
@@ -148,3 +147,38 @@ shipyard "TBF Ships 2" # Hauler 2&3, some light warships, bounder, blackbird, ar
 	"Modified Argosy"
 	"Hauler II"
 	"Hauler III"
+
+
+# Level 3
+
+mission "Trial By Fire: Level 3" # pirate ships and outits
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 175
+	on complete
+		event "TBF Level 3"
+		payment 500000
+
+event "TBF Level 2"
+	
+	planet "Watcher"
+		add outfitter "TBF Outfits 3"
+		add shipyard "TBF Ships 3"
+
+outfitter "TBF Outfits 2" # pirate-exclusive outfits
+	"Interference Plating"
+	"Gatling Gun"
+	"Gatling Turret"
+	"Javelin Turret"
+
+shipyard "TBF Ships 3" # pirate-exclusive ships
+	"Mammoth"
+	"Modified Argosy"
+	"Nighthawk"
+	"Saber"
+	"Valkyrie"
+	"Bulwark"
+	"Cutthroat"
+	"Enforcer"
