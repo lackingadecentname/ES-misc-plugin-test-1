@@ -238,3 +238,47 @@ shipyard "MS Ships 4" # remaining light warships, some medium warships, nest, fi
 	"Boxwing"
 	"Dagger"
 	"Finch"
+
+# Level 5
+
+
+mission "Mega Shipyard: Level 5" # define
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 550
+	on complete
+		event "MS Level 5"
+		payment 2000000
+
+event "MS Level 5"
+	planet "Watcher"
+		add outfitter "MS Outfits 5"
+		add shipyard "MS Ships 5"
+
+outfitter "MS Outfits 5" # improved shields, plasma turrets, t4 plasmas and atomics, fission reactors and larger batteries
+	"D67-TM Shield Generator"
+	"D94-YV Shield Generator"
+	"Particle Cannon"
+	"Plasma Turret"
+	"Orca Plasma Thruster"
+	"Orca Plasma Steering"
+	"A520 Atomic Thruster"
+	"A525 Atomic Steering"
+	"LP288a Battery Pack"
+	"Fission Reactor"
+	"Breeder Reactor"
+
+shipyard "MS Ships 5" # medium warships, roost, mule, heavy freighters
+	"Aerie"
+	"Corvette"
+	"Manta"
+	"Osprey"
+	"Splinter"
+	"Roost"
+	"Mule"
+	"Container Transport"
+	"Behemoth"
+	"Bulk Freighter"
+	
