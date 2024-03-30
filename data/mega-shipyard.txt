@@ -165,6 +165,8 @@ outfitter "MS Outfits 3" # pirate-exclusive outfits
 	"Gatling Gun"
 	"Gatling Turret"
 	"Javelin Turret"
+	"Fragmentation Grenades"
+	"Nerve Gas"
 
 shipyard "MS Ships 3" # pirate-exclusive ships
 	"Mammoth"
@@ -270,6 +272,7 @@ outfitter "MS Outfits 5" # improved shields, plasma turrets, t4 plasmas and atom
 	"LP288a Battery Pack"
 	"Fission Reactor"
 	"Breeder Reactor"
+	"Security Station"
 
 shipyard "MS Ships 5" # medium warships, roost, mule, heavy freighters
 	"Aerie"
@@ -423,6 +426,7 @@ event "MS Level 10"
 		set "license: Navy Auxiliary"
 
 outfitter "MS Outfits 10"
+	"Catalytic Ramscoop"
 	"Electron Beam"
 	"Electron Turret"
 	"Typhoon Torpedo"
@@ -437,3 +441,52 @@ shipyard "MS Ships 10"
 	"Auxiliary (Cargo)"
 	"Auxiliary (Transport)"
 	"Dropship"
+
+# level 11
+
+mission "Mega Shipyard: Level 11" # the marauder collection
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 3500
+	on complete
+		event "MS Level 11"
+		payment 5000000
+
+event "MS Level 11"
+	planet "Watcher"
+		add outfitter "MS Outfits 11"
+		add shipyard "MS Ships 11"
+
+outfitter "MS Outfits 11" # none :)
+	
+
+shipyard "MS Ships 11"
+	"Marauder Arrow"
+	"Marauder Arrow (Engines)"
+	"Marauder Arrow (Weapons)"
+	"Marauder Bounder"
+	"Marauder Bounder (Engines)"
+	"Marauder Bounder (Weapons)"
+	"Marauder Falcon"
+	"Marauder Falcon (Engines)"
+	"Marauder Falcon (Weapons)"
+	"Marauder Firebird"
+	"Marauder Firebird (Engines)"
+	"Marauder Firebird (Weapons)"
+	"Marauder Leviathan"
+	"Marauder Leviathan (Engines)"
+	"Marauder Leviathan (Weapons)"
+	"Marauder Manta"
+	"Marauder Manta (Engines)"
+	"Marauder Manta (Weapons)"
+	"Marauder Quicksilver"
+	"Marauder Quicksilver (Engines)"
+	"Marauder Quicksilver (Weapons)"
+	"Marauder Raven"
+	"Marauder Raven (Engines)"
+	"Marauder Raven (Weapons)"
+	"Marauder Splinter"
+	"Marauder Splinter (Engines)"
+	"Marauder Splinter (Weapons)"
