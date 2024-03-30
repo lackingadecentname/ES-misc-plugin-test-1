@@ -490,3 +490,31 @@ shipyard "MS Ships 11"
 	"Marauder Splinter"
 	"Marauder Splinter (Engines)"
 	"Marauder Splinter (Weapons)"
+
+
+# Level 12
+
+mission "Mega Shipyard: Level 12" # the very best human ships, welcome to the big leagues
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 5500
+	on complete
+		event "MS Level 12"
+		payment 5000000
+
+event "MS Level 12"
+	planet "Watcher"
+		add outfitter "MS Outfits 12"
+		add shipyard "MS Ships 12"
+
+outfitter "MS Outfits 12"
+	"City-Ship License"
+
+shipyard "MS Ships 12"
+	"Bactrian"
+	"Kestrel (More Weapons)"
+	"Kestrel (More Engines)"
+	"Kestrel (More Shields)"
+	"Kestrel (More Bays)"
