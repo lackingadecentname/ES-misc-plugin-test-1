@@ -305,7 +305,7 @@ event "MS Level 6"
 outfitter "MS Outfits 6" # surveillance pod (lol)
 	"Surveillance Pod"
 
-Shipyard "MS Ships 6" # navy ships
+shipyard "MS Ships 6" # navy ships
 	"Combat Drone"
 	"Frigate"
 	"Gunboat"
