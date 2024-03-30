@@ -391,7 +391,13 @@ event "MS Level 9"
 		add shipyard "MS Ships 9"
 
 outfitter "MS Outfits 9"
+	"Stack Core"
+	"Flamethrower"
+	"Plasma Repeater"
+	"Nuclear Missile"
 	
 
 Shipyard "MS Ships 9"
-	
+	"Dreadnought"
+	"Skein"
+
