@@ -345,3 +345,26 @@ outfitter "MS Outfits 7" # fusion reactors + t5 engines
 Shipyard "MS Ships 7" # falcon + levi
 	"Leviathan"
 	"Falcon"
+
+
+# Level 8
+
+mission "Mega Shipyard: Level 8" # define
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 900 # open to adjustment
+	on complete
+		event "MS Level 8"
+		payment 1000000 # placeholder
+
+event "MS Level 8"
+	planet "Watcher"
+		add outfitter "MS Outfits 8"
+		add shipyard "MS Ships 8"
+
+outfitter "MS Outfits 8" # define
+	
+
+Shipyard "MS Ships 8" # define
