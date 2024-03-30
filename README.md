@@ -20,4 +20,4 @@ event "MS Level #"
 outfitter "MS Outfits #"
 	
 
-Shipyard "MS Ships #"
+shipyard "MS Ships #"
