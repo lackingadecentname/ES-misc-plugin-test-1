@@ -518,3 +518,26 @@ shipyard "MS Ships 12"
 	"Kestrel (More Engines)"
 	"Kestrel (More Shields)"
 	"Kestrel (More Bays)"
+
+# Level 13
+
+mission "Mega Shipyard: Level 13" # Basic Hai Tech
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 6250
+	on complete
+		event "MS Level 13"
+		payment 1000000
+
+event "MS Level 13"
+	planet "Watcher"
+		add outfitter "MS Outfits 13"
+		add shipyard "MS Ships 13"
+
+outfitter "MS Outfits 13"
+	
+
+shipyard "MS Ships 13"
+	
