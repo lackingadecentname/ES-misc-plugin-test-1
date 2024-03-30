@@ -518,6 +518,7 @@ shipyard "MS Ships 12"
 	"Kestrel (More Engines)"
 	"Kestrel (More Shields)"
 	"Kestrel (More Bays)"
+	"Class C Freighter"
 
 # Level 13
 
