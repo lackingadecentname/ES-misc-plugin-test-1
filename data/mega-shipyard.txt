@@ -349,22 +349,28 @@ Shipyard "MS Ships 7" # falcon + levi
 
 # Level 8
 
-mission "Mega Shipyard: Level 8" # define
+mission "Mega Shipyard: Level 8" # syndicate trinkets
 	landing
 	source "New Boston"
 	destination "Watcher"
 	to offer
-		"combat rating" > 900 # open to adjustment
+		"combat rating" > 975
 	on complete
 		event "MS Level 8"
-		payment 1000000 # placeholder
+		payment 1500000
 
 event "MS Level 8"
 	planet "Watcher"
 		add outfitter "MS Outfits 8"
 		add shipyard "MS Ships 8"
 
-outfitter "MS Outfits 8" # define
+outfitter "MS Outfits 8" # syndicate regenerators + ionic afterburner
+	"S-270 Regenerator"
+	"S-970 Regenerator"
+	"Ionic Afterburner"
 	
 
-Shipyard "MS Ships 8" # define
+Shipyard "MS Ships 8" # syndicate HWs
+	"Protector"
+	"Vanguard"
+	
