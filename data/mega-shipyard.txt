@@ -435,7 +435,7 @@ outfitter "MS Outfits 10"
 	"Navy Carrier License"
 
 shipyard "MS Ships 10"
-	"Typhoon Pod"
+	"Cruiser"
 	"Carrier"
 	"Auxiliary"
 	"Auxiliary (Cargo)"
