@@ -401,3 +401,39 @@ shipyard "MS Ships 9"
 	"Dreadnought"
 	"Skein"
 
+
+# level 10
+
+mission "Mega Shipyard: Level 10" # the navy variety hour
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 2000
+	on complete
+		event "MS Level 10"
+		payment 3500000
+
+event "MS Level 10"
+	planet "Watcher"
+		add outfitter "MS Outfits 10"
+		add shipyard "MS Ships 10"
+		set "license: Navy Cruiser"
+		set "license: Navy Carrier"
+		set "license: Navy Auxiliary"
+
+outfitter "MS Outfits 10"
+	"Electron Beam"
+	"Electron Turret"
+	"Typhoon Torpedo"
+	"Typhoon Storage Tube"
+	"Typhoon Launcher"
+	"Typhoon Pod"
+
+shipyard "MS Ships 10"
+	"Typhoon Pod"
+	"Carrier"
+	"Auxiliary"
+	"Auxiliary (Cargo)"
+	"Auxiliary (Transport)"
+	"Dropship"
