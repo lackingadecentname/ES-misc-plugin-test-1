@@ -125,6 +125,7 @@ outfitter "MS Outfits 2" # define
 	"Heavy Rocket Pod"
 	"Gatling Gun Ammo"
 	"Bullet Boxes"
+	"Volcano Afterburner"
 	"LP072a Battery Pack"
 	"KP-6 Photovoltaic Array"
 	"nGVF-CC Fuel Cell"
