@@ -342,7 +342,7 @@ outfitter "MS Outfits 7" # fusion reactors + t5 engines
 	"A860 Atomic Thruster"
 	"A865 Atomic Steering"
 
-Shipyard "MS Ships 7" # falcon + levi
+shipyard "MS Ships 7" # falcon + levi
 	"Leviathan"
 	"Falcon"
 
@@ -370,7 +370,7 @@ outfitter "MS Outfits 8" # syndicate regenerators + ionic afterburner
 	"Ionic Afterburner"
 	
 
-Shipyard "MS Ships 8" # syndicate HWs
+shipyard "MS Ships 8" # syndicate HWs
 	"Protector"
 	"Vanguard"
 	
@@ -397,7 +397,7 @@ outfitter "MS Outfits 9"
 	"Nuclear Missile"
 	
 
-Shipyard "MS Ships 9"
+shipyard "MS Ships 9"
 	"Dreadnought"
 	"Skein"
 
