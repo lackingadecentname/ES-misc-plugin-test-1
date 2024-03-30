@@ -374,3 +374,24 @@ Shipyard "MS Ships 8" # syndicate HWs
 	"Protector"
 	"Vanguard"
 	
+mission "Mega Shipyard: Level 9" # militia content
+	landing
+	source "New Boston"
+	destination "Watcher"
+	to offer
+		"combat rating" > 1050
+	on complete
+		event "MS Level 9"
+		payment 2000000
+		set "license: Militia"
+
+event "MS Level 9"
+	planet "Watcher"
+		add outfitter "MS Outfits 9"
+		add shipyard "MS Ships 9"
+
+outfitter "MS Outfits 9"
+	
+
+Shipyard "MS Ships 9"
+	
