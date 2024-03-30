@@ -316,7 +316,7 @@ Shipyard "MS Ships 6" # navy ships
 
 # Level 7
 
-mission "Mega Shipyard: Level 7" # Fusion Reactors. Falcon/Leviathan, amd T5 Engines
+mission "Mega Shipyard: Level 7" # Fusion Reactors. Falcon/Leviathan, and T5 Engines
 	landing
 	source "New Boston"
 	destination "Watcher"
