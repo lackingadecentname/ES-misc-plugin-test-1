@@ -524,7 +524,7 @@ shipyard "MS Ships 12"
 
 mission "Mega Shipyard: Level 13" # Basic Hai Tech
 	landing
-	source "New Boston"
+	source "Makerplace"
 	destination "Watcher"
 	to offer
 		"combat rating" > 6250
@@ -537,7 +537,27 @@ event "MS Level 13"
 		add outfitter "MS Outfits 13"
 		add shipyard "MS Ships 13"
 
-outfitter "MS Outfits 13"
+outfitter "MS Outfits 13" # hai basics
+	"Pulse Cannon"
+	"Hai Tracker"
+	"Bullfrog Anti-Missile"
+	"Hai Corundum Regenerator"
+	"Hai Williwaw Cooling"
+	"Quantum Keystone"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Sand Cell"
+	`"Baellie" Atomic Engines`
+	`"Basrem" Atomic Thruster`
+	`"Benga" Atomic Thruster`
+	`"Basrem" Reverse Thruster`
+	`"Benga" Reverse Thruster`
+	`"Basrem" Atomic Steering`
+	`"Benga" Atomic Steering`
+	"Pulse Rifle"
 
-
-shipyard "MS Ships 13"
+shipyard "MS Ships 13" # hai basics
+	"Aphid"
+	"Cicada"
+	"Grasshopper"
+	"Scarab"
