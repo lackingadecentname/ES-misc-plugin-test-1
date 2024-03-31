@@ -674,3 +674,25 @@ shipyard "MS Ships 16" # hai Classified
 	"Solifuge"
 	"Violin Spider"
 	
+
+# Level 17 from now on levels will no longer have payments
+
+mission "Mega Shipyard: Level 17" # Korath Basics
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 10000 # adjust
+	on complete
+		event "MS Level 17"
+
+event "MS Level 17"
+	planet "Watcher"
+		add outfitter "MS Outfits 17"
+		add shipyard "MS Ships 17"
+
+outfitter "MS Outfits 17" # korath basics
+	
+
+shipyard "MS Ships 17" # korath basics
+	
