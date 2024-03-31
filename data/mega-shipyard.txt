@@ -756,3 +756,44 @@ outfitter "MS Outfits 18" # korath intermediate
 
 shipyard "MS Ships 18" # korath intermediate (none)
 	
+
+
+
+# Level 19
+
+mission "Mega Shipyard: Level 19" # Korath Advanced
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 20000
+	on complete
+		event "MS Level 19"
+
+event "MS Level 19"
+	planet "Watcher"
+		add outfitter "MS Outfits 19"
+		add shipyard "MS Ships 19"
+
+outfitter "MS Outfits 19" # korath advanced
+	"Double Plasma Core"
+	"Triple Plasma Core"
+	"Liquid Sodium Cooler"
+	"Systems Core (Large)"
+	"Afterburner (Planetary Class)"
+	"Afterburner (Stellar Class)"
+	"Reverser (Planetary Class)"
+	"Reverser (Stellar Class)"
+	"Thruster (Planetary Class)"
+	"Thruster (Stellar Class)"
+	"Steering (Planetary Class)"
+	"Steering (Stellar Class)"
+	"Microbot Defense Station"
+	"Shunt-Strike Turret"
+	"Korath Inferno"
+	"Firestorm Torpedo Rack"
+	"Firestorm Battery"
+	
+
+shipyard "MS Ships 19" # korath advanced (still none)
+	
