@@ -561,3 +561,41 @@ shipyard "MS Ships 13" # hai basics
 	"Cicada"
 	"Grasshopper"
 	"Scarab"
+
+
+# Level 14
+
+mission "Mega Shipyard: Level 14" # Moderate Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 7000
+	on complete
+		event "MS Level 14"
+		payment 1500000
+
+event "MS Level 14"
+	planet "Watcher"
+		add outfitter "MS Outfits 14"
+		add shipyard "MS Ships 14"
+
+outfitter "MS Outfits 14" # hai intermediate
+	"Pulse Turret"
+	"Tracker Storage Pod"
+	"Hai Tracker Pod"
+	"Chameleon Anti-Missile"
+	"Hai Cuttlefish Jammer"
+	"Hai Gorge Batteries"
+	"Geode Reactor"
+	"Pebble Core"
+	`"Biroo" Atomic Thruster`
+	`"Biroo" Reverse Thruster`
+	`"Biroo" Atomic Steering`
+	
+
+shipyard "MS Ships 14" # hai intermediate
+	"Water Bug"
+	"Cicada"
+	"Lightning Bug"
+	"Sea Scorpion"
