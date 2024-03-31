@@ -674,3 +674,178 @@ shipyard "MS Ships 16" # hai Classified
 	"Solifuge"
 	"Violin Spider"
 	
+
+# Level 17 from now on levels will no longer have payments
+
+mission "Mega Shipyard: Level 17" # Korath Basics
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 13000
+	on complete
+		event "MS Level 17"
+
+event "MS Level 17"
+	planet "Watcher"
+		add outfitter "MS Outfits 17"
+		add shipyard "MS Ships 17"
+
+outfitter "MS Outfits 17" # korath basics
+	"Generator (Candle Class)"
+	"Generator (Furnace Class)"
+	"Small Heat Shunt"
+	"Systems Core (Tiny)"
+	"Fuel Processor"
+	"Afterburner (Asteroid Class)"
+	"Engine (Meteor Class)"
+	"Bow Drive (Meteor Class)"
+	"Reverser (Asteroid Class)"
+	"Thruster (Asteroid Class)"
+	"Steering (Asteroid Class)"
+	"Thermal Repeater Rifle"
+	"Expeller Grav-Ray"
+	"Warder Anti-Missile"
+	"Fire-Lance"
+	"Digger Mining Turret"
+	"Digger Mining Beam"
+	"Firelight Missile"
+
+shipyard "MS Ships 17" # korath basics
+	"'olofez"
+	"Kas'ik Tek 7"
+	
+
+# Level 18
+
+mission "Mega Shipyard: Level 18" # Korath Intermediate
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 16500
+	on complete
+		event "MS Level 18"
+
+event "MS Level 18"
+	planet "Watcher"
+		add outfitter "MS Outfits 18"
+		add shipyard "MS Ships 18"
+
+outfitter "MS Outfits 18" # korath intermediate
+	"Firelight Missile Bank"
+	"Firelight Storage Rack"
+	"Firestorm Torpedo"
+	"Grab-Strike Turret"
+	"Banisher Grav-Turret"
+	"Blaze-Pike Turret"
+	"Langrage Hyper-Heaver"
+	"Generator (Inferno Class)"
+	"Plasma Core"
+	"Large Heat Shunt"
+	"Systems Core (Small)"
+	"Systems Core (Medium)"
+	"Afterburner (Comet Class)"
+	"Afterburner (Lunar Class)"
+	"Reverser (Comet Class)"
+	"Reverser (Lunar Class)"
+	"Thruster (Comet Class)"
+	"Thruster (Lunar Class)"
+	"Steering (Comet Class)"
+	"Steering (Lunar Class)"
+
+shipyard "MS Ships 18" # korath intermediate (none)
+	
+
+
+
+# Level 19
+
+mission "Mega Shipyard: Level 19" # Korath Advanced
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 20000
+	on complete
+		event "MS Level 19"
+
+event "MS Level 19"
+	planet "Watcher"
+		add outfitter "MS Outfits 19"
+		add shipyard "MS Ships 19"
+
+outfitter "MS Outfits 19" # korath advanced
+	"Double Plasma Core"
+	"Triple Plasma Core"
+	"Liquid Sodium Cooler"
+	"Systems Core (Large)"
+	"Afterburner (Planetary Class)"
+	"Afterburner (Stellar Class)"
+	"Reverser (Planetary Class)"
+	"Reverser (Stellar Class)"
+	"Thruster (Planetary Class)"
+	"Thruster (Stellar Class)"
+	"Steering (Planetary Class)"
+	"Steering (Stellar Class)"
+	"Microbot Defense Station"
+	"Shunt-Strike Turret"
+	"Korath Inferno"
+	"Firestorm Torpedo Rack"
+	"Firestorm Battery"
+	
+
+shipyard "MS Ships 19" # korath advanced (still none)
+	
+
+
+
+# Level 20
+
+mission "Mega Shipyard: Level 20" # Korath Ships 1
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 27500
+	on complete
+		event "MS Level 20"
+
+event "MS Level 20"
+	planet "Watcher"
+		add outfitter "MS Outfits 20"
+		add shipyard "MS Ships 20"
+
+outfitter "MS Outfits 20" # jump drive
+	"Jump Drive"
+
+shipyard "MS Ships 20" # korath ships 1
+	"Palavret"
+	"'nra'ret"
+	"Rano'erek"
+
+
+
+# Level 21
+
+mission "Mega Shipyard: Level 21" # Korath Ships 2
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 32500
+	on complete
+		event "MS Level 21"
+
+event "MS Level 21"
+	planet "Watcher"
+		add outfitter "MS Outfits 21"
+		add shipyard "MS Ships 21"
+
+outfitter "MS Outfits 21" # none :)
+	
+
+shipyard "MS Ships 21" # korath ships 2
+	"Tubfalet"
+	"Rai'alorej"
+
