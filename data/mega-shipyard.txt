@@ -602,7 +602,7 @@ shipyard "MS Ships 14" # hai intermediate
 
 
 
-# Level 14
+# Level 16
 
 mission "Mega Shipyard: Level 15" # Advanced Hai Tech
 	landing
@@ -636,3 +636,39 @@ shipyard "MS Ships 15" # hai Advanced
 	"Centipede"
 	"Geocoris"
 	"Shield Beetle"
+
+
+
+# Level 16
+
+mission "Mega Shipyard: Level 16" # Classified Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 10000
+	on complete
+		event "MS Level 16"
+		payment 2000000
+		set "license: Unfettered Militia"
+
+event "MS Level 16"
+	planet "Watcher"
+		add outfitter "MS Outfits 16"
+		add shipyard "MS Ships 16"
+
+outfitter "MS Outfits 16" # hai Classified
+	"Tripulse Shredder"
+	"Ionic Blaster Prototype"
+	"Ionic Turret Prototype"
+	"Railgun Slug"
+	"Railgun Slug Rack"
+	"Railgun"
+
+shipyard "MS Ships 16" # hai Classified
+	"Flea"
+	"Ladybug"
+	"Pond Strider"
+	"Solifuge"
+	"Violin Spider"
+	
