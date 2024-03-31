@@ -723,7 +723,7 @@ mission "Mega Shipyard: Level 18" # Korath Intermediate
 	source "Far'en Lai"
 	destination "Watcher"
 	to offer
-		"combat rating" > 10000 # adjust
+		"combat rating" > 16500
 	on complete
 		event "MS Level 18"
 
@@ -733,7 +733,26 @@ event "MS Level 18"
 		add shipyard "MS Ships 18"
 
 outfitter "MS Outfits 18" # korath intermediate
-	
+	"Firelight Missile Bank"
+	"Firelight Storage Rack"
+	"Firestorm Torpedo"
+	"Grab-Strike Turret"
+	"Banisher Grav-Turret"
+	"Blaze-Pike Turret"
+	"Langrage Hyper-Heaver"
+	"Generator (Inferno Class)"
+	"Plasma Core"
+	"Large Heat Shunt"
+	"Systems Core (Small)"
+	"Systems Core (Medium)"
+	"Afterburner (Comet Class)"
+	"Afterburner (Lunar Class)"
+	"Reverser (Comet Class)"
+	"Reverser (Lunar Class)"
+	"Thruster (Comet Class)"
+	"Thruster (Lunar Class)"
+	"Steering (Comet Class)"
+	"Steering (Lunar Class)"
 
-shipyard "MS Ships 18" # korath intermediate
+shipyard "MS Ships 18" # korath intermediate (none)
 	
