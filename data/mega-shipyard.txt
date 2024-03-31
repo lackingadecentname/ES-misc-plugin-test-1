@@ -692,7 +692,26 @@ event "MS Level 17"
 		add shipyard "MS Ships 17"
 
 outfitter "MS Outfits 17" # korath basics
-	
+	"Generator (Candle Class)"
+	"Generator (Furnace Class)"
+	"Small Heat Shunt"
+	"Systems Core (Tiny)"
+	"Fuel Processor"
+	"Afterburner (Asteroid Class)"
+	"Engine (Meteor Class)"
+	"Bow Drive (Meteor Class)"
+	"Reverser (Asteroid Class)"
+	"Thruster (Asteroid Class)"
+	"Steering (Asteroid Class)"
+	"Thermal Repeater Rifle"
+	"Expeller Grav-Ray"
+	"Warder Anti-Missile"
+	"Fire-Lance"
+	"Digger Mining Turret"
+	"Digger Mining Beam"
+	"Firelight Missile"
 
 shipyard "MS Ships 17" # korath basics
+	"'olofez"
+	"Kas'ik Tek 7"
 	
