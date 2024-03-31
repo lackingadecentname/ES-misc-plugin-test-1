@@ -599,3 +599,40 @@ shipyard "MS Ships 14" # hai intermediate
 	"Cicada"
 	"Lightning Bug"
 	"Sea Scorpion"
+
+
+
+# Level 14
+
+mission "Mega Shipyard: Level 15" # Advanced Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 8250
+	on complete
+		event "MS Level 15"
+		payment 2000000
+
+event "MS Level 15"
+	planet "Watcher"
+		add outfitter "MS Outfits 15"
+		add shipyard "MS Ships 15"
+
+outfitter "MS Outfits 15" # hai Advanced
+	"Ion Cannon"
+	"Hai Octopus Jammer"
+	"Hai Diamond Regenerator"
+	"Value Detector"
+	"Hai Ravine Batteries"
+	"Hai Valley Batteries"
+	"Boulder Reactor"
+	`"Bondir" Atomic Thruster`
+	`"Bufaer" Atomic Thruster`
+	`"Bondir" Atomic Steering`
+	`"Bufaer" Atomic Steering`
+
+shipyard "MS Ships 15" # hai Advanced
+	"Centipede"
+	"Geocoris"
+	"Shield Beetle"
