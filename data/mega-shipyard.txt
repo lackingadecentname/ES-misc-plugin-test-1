@@ -682,7 +682,7 @@ mission "Mega Shipyard: Level 17" # Korath Basics
 	source "Far'en Lai"
 	destination "Watcher"
 	to offer
-		"combat rating" > 10000 # adjust
+		"combat rating" > 13000
 	on complete
 		event "MS Level 17"
 
@@ -714,4 +714,26 @@ outfitter "MS Outfits 17" # korath basics
 shipyard "MS Ships 17" # korath basics
 	"'olofez"
 	"Kas'ik Tek 7"
+	
+
+# Level 18
+
+mission "Mega Shipyard: Level 18" # Korath Intermediate
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 10000 # adjust
+	on complete
+		event "MS Level 18"
+
+event "MS Level 18"
+	planet "Watcher"
+		add outfitter "MS Outfits 18"
+		add shipyard "MS Ships 18"
+
+outfitter "MS Outfits 18" # korath intermediate
+	
+
+shipyard "MS Ships 18" # korath intermediate
 	
