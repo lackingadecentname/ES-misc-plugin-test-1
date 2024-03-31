@@ -348,6 +348,8 @@ outfitter "MS Outfits 7" # fusion reactors + t5 engines
 shipyard "MS Ships 7" # falcon + levi
 	"Leviathan"
 	"Falcon"
+	"Star Queen"
+	"Hogshead"
 
 
 # Level 8
