@@ -797,3 +797,55 @@ outfitter "MS Outfits 19" # korath advanced
 
 shipyard "MS Ships 19" # korath advanced (still none)
 	
+
+
+
+# Level 20
+
+mission "Mega Shipyard: Level 20" # Korath Ships 1
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 27500
+	on complete
+		event "MS Level 20"
+
+event "MS Level 20"
+	planet "Watcher"
+		add outfitter "MS Outfits 20"
+		add shipyard "MS Ships 20"
+
+outfitter "MS Outfits 20" # jump drive
+	"Jump Drive"
+
+shipyard "MS Ships 20" # korath ships 1
+	"Palavret"
+	"'nra'ret"
+	"Rano'erek"
+
+
+
+# Level 21
+
+mission "Mega Shipyard: Level 21" # Korath Ships 2
+	landing
+	source "Far'en Lai"
+	destination "Watcher"
+	to offer
+		"combat rating" > 32500
+	on complete
+		event "MS Level 21"
+
+event "MS Level 21"
+	planet "Watcher"
+		add outfitter "MS Outfits 21"
+		add shipyard "MS Ships 21"
+
+outfitter "MS Outfits 21" # none :)
+	
+
+shipyard "MS Ships 21" # korath ships 2
+	"Tubfalet"
+	"Rai'alorej"
+
