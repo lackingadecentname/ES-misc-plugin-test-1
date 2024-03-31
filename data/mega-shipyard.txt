@@ -519,3 +519,156 @@ shipyard "MS Ships 12"
 	"Kestrel (More Shields)"
 	"Kestrel (More Bays)"
 	"Class C Freighter"
+
+# Level 13
+
+mission "Mega Shipyard: Level 13" # Basic Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 6250
+	on complete
+		event "MS Level 13"
+		payment 1000000
+
+event "MS Level 13"
+	planet "Watcher"
+		add outfitter "MS Outfits 13"
+		add shipyard "MS Ships 13"
+
+outfitter "MS Outfits 13" # hai basics
+	"Pulse Cannon"
+	"Hai Tracker"
+	"Bullfrog Anti-Missile"
+	"Hai Corundum Regenerator"
+	"Hai Williwaw Cooling"
+	"Quantum Keystone"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Sand Cell"
+	`"Baellie" Atomic Engines`
+	`"Basrem" Atomic Thruster`
+	`"Benga" Atomic Thruster`
+	`"Basrem" Reverse Thruster`
+	`"Benga" Reverse Thruster`
+	`"Basrem" Atomic Steering`
+	`"Benga" Atomic Steering`
+	"Pulse Rifle"
+
+shipyard "MS Ships 13" # hai basics
+	"Aphid"
+	"Cicada"
+	"Grasshopper"
+	"Scarab"
+
+
+# Level 14
+
+mission "Mega Shipyard: Level 14" # Moderate Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 7000
+	on complete
+		event "MS Level 14"
+		payment 1500000
+
+event "MS Level 14"
+	planet "Watcher"
+		add outfitter "MS Outfits 14"
+		add shipyard "MS Ships 14"
+
+outfitter "MS Outfits 14" # hai intermediate
+	"Pulse Turret"
+	"Tracker Storage Pod"
+	"Hai Tracker Pod"
+	"Chameleon Anti-Missile"
+	"Hai Cuttlefish Jammer"
+	"Hai Gorge Batteries"
+	"Geode Reactor"
+	"Pebble Core"
+	`"Biroo" Atomic Thruster`
+	`"Biroo" Reverse Thruster`
+	`"Biroo" Atomic Steering`
+	
+
+shipyard "MS Ships 14" # hai intermediate
+	"Water Bug"
+	"Cicada"
+	"Lightning Bug"
+	"Sea Scorpion"
+
+
+
+# Level 16
+
+mission "Mega Shipyard: Level 15" # Advanced Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 8250
+	on complete
+		event "MS Level 15"
+		payment 2000000
+
+event "MS Level 15"
+	planet "Watcher"
+		add outfitter "MS Outfits 15"
+		add shipyard "MS Ships 15"
+
+outfitter "MS Outfits 15" # hai Advanced
+	"Ion Cannon"
+	"Hai Octopus Jammer"
+	"Hai Diamond Regenerator"
+	"Value Detector"
+	"Hai Ravine Batteries"
+	"Hai Valley Batteries"
+	"Boulder Reactor"
+	`"Bondir" Atomic Thruster`
+	`"Bufaer" Atomic Thruster`
+	`"Bondir" Atomic Steering`
+	`"Bufaer" Atomic Steering`
+
+shipyard "MS Ships 15" # hai Advanced
+	"Centipede"
+	"Geocoris"
+	"Shield Beetle"
+
+
+
+# Level 16
+
+mission "Mega Shipyard: Level 16" # Classified Hai Tech
+	landing
+	source "Makerplace"
+	destination "Watcher"
+	to offer
+		"combat rating" > 10000
+	on complete
+		event "MS Level 16"
+		payment 2000000
+		set "license: Unfettered Militia"
+
+event "MS Level 16"
+	planet "Watcher"
+		add outfitter "MS Outfits 16"
+		add shipyard "MS Ships 16"
+
+outfitter "MS Outfits 16" # hai Classified
+	"Tripulse Shredder"
+	"Ionic Blaster Prototype"
+	"Ionic Turret Prototype"
+	"Railgun Slug"
+	"Railgun Slug Rack"
+	"Railgun"
+
+shipyard "MS Ships 16" # hai Classified
+	"Flea"
+	"Ladybug"
+	"Pond Strider"
+	"Solifuge"
+	"Violin Spider"
+	
