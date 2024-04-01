@@ -125,3 +125,26 @@ shipyard "MS Ships 25" # coalition advanced
 	"Arach Spindle"
 	"Kimek Spire"
 	"Saryd Sojourner"
+
+
+# Level 26
+
+mission "Mega Shipyard: Level 26" # bunrodea basics
+	landing
+	source "#"
+	destination "Watcher"
+	to offer
+		"combat rating" > 47500 # adjust
+	on complete
+		event "MS Level 26"
+
+event "MS Level 26"
+	planet "Watcher"
+		add outfitter "MS Outfits 26"
+		add shipyard "MS Ships 26"
+
+outfitter "MS Outfits 26" # bunrodea basics
+	
+
+shipyard "MS Ships 26" # bunrodea basics
+	
