@@ -1,1 +1,31 @@
+# Level 22
 
+mission "Mega Shipyard: Level 22" # Efreti Detour
+	landing
+	source "Laki Nemparu"
+	destination "Watcher"
+	to offer
+		"combat rating" > 35000
+	on complete
+		event "MS Level 22"
+
+event "MS Level 22"
+	planet "Watcher"
+		add outfitter "MS Outfits 22"
+		add shipyard "MS Ships 22"
+
+outfitter "MS Outfits 22" # command center + gravetoplasic engines
+  "Command Center"
+  "Arkrof GP Hybrid Thruster"
+  "Farves GP Hybrid Thruster"
+  "Gaktem GP Hybrid Thruster"
+  "Nelmeb GP Hybrid Thruster"
+  "Arkrof GP Hybrid Steering"
+  "Farves GP Hybrid Steering"
+  "Gaktem GP Hybrid Steering"
+  "Nelmeb GP Hybrid Steering"
+
+shipyard "MS Ships 22" # efreti ships
+  "Echo-Galleon"
+  "Arch-Carrack"
+  "Charm-Shallop"
