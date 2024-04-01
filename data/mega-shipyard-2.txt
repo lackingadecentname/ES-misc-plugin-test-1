@@ -131,10 +131,10 @@ shipyard "MS Ships 25" # coalition advanced
 
 mission "Mega Shipyard: Level 26" # bunrodea basics
 	landing
-	source "#"
+	source "Kifrana Terberah"
 	destination "Watcher"
 	to offer
-		"combat rating" > 47500 # adjust
+		"combat rating" > 53000
 	on complete
 		event "MS Level 26"
 
@@ -144,7 +144,20 @@ event "MS Level 26"
 		add shipyard "MS Ships 26"
 
 outfitter "MS Outfits 26" # bunrodea basics
-	
+	"Shield Relay Booster"
+	"Shield Relay Limiter"
+	"Small Shield Relay"
+	"Nanite Enhancer"
+	"Nanite Limiter"
+	"Small Nanite Fabricator"
+	"Solar Battery"
+	"Solar Cell"
+	"Reactor Overclocker"
+	"Reactor Limiter"
+	"Lasher Pistol"
+	"Chiisana Rift Thruster"
+	"Chiisana Rift Steering"
+	"Locust Blaster"
 
 shipyard "MS Ships 26" # bunrodea basics
-	
+	"Kaiken"
