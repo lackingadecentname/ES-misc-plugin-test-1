@@ -66,3 +66,37 @@ shipyard "MS Ships 23" # coalition basics
 	"Kimek Thorn"
 	"Saryd Runabout"
 	"Saryd Visitor"
+
+
+# Level 24
+
+mission "Mega Shipyard: Level 24" # coalition intermediate
+	landing
+	source "Ring of Friendship"
+	destination "Watcher"
+	to offer
+		"combat rating" > 43000
+	on complete
+		event "MS Level 24"
+
+event "MS Level 24"
+	planet "Watcher"
+		add outfitter "MS Outfits 24"
+		add shipyard "MS Ships 24"
+
+outfitter "MS Outfits 24" # calition intermediate
+	"MCS Extractor"
+	"Large Collector Module"
+	"Large Cogeneration Module"
+	"Large Battery Module"
+	"Fuel Module"
+	"Large Thrust Module"
+	"Large Reverse Module"
+	"Large Steering Module"
+	
+
+shipyard "MS Ships 24" # coalition intermediate
+	"Arach Freighter"
+	"Kimek Thistle"
+	"Saryd Traveler"
+
