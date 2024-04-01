@@ -161,3 +161,36 @@ outfitter "MS Outfits 26" # bunrodea basics
 
 shipyard "MS Ships 26" # bunrodea basics
 	"Kaiken"
+
+
+# Level 27
+
+mission "Mega Shipyard: Level 27" # bunrodea intermediate
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 55000
+	on complete
+		event "MS Level 27"
+
+event "MS Level 27"
+	planet "Watcher"
+		add outfitter "MS Outfits 27"
+		add shipyard "MS Ships 27"
+
+outfitter "MS Outfits 27" # bunrodea intermediate
+	"Nami Rift Thruster"
+	"Nami Rift Steering"
+	"Ookii Rift Thruster"
+	"Ookii Rift Steering"
+	"Quark Reactor"
+	"Mandible Cannon"
+	"Swarm Clip"
+	"Swarm Missile"
+	"Swarm Pod"
+	"Buzzer Anti-Missile"
+
+shipyard "MS Ships 27" # bunrodea intermediate
+	"Tanto"
+	"Kunai"
