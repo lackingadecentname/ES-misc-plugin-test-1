@@ -7,6 +7,4 @@ mission "Kasichara A'awoj"
 	to offer
 		"combat rating" > 32500
 	on complete
-    give ship "Kasichara A'awoj" "Lost Haven"
-  conversation
-  `You find this unusual ship among the automated shipyards on Watcher, you cannot find anything else like it and decide to take it.`
+    give ship "Kasichara A'awoj" "Korsmanath"
