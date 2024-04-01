@@ -100,3 +100,28 @@ shipyard "MS Ships 24" # coalition intermediate
 	"Kimek Thistle"
 	"Saryd Traveler"
 
+# Level 25
+
+mission "Mega Shipyard: Level 25" # coalition advanced
+	landing
+	source "Ring of Friendship"
+	destination "Watcher"
+	to offer
+		"combat rating" > 47500
+	on complete
+		event "MS Level 25"
+
+event "MS Level 25"
+	planet "Watcher"
+		add outfitter "MS Outfits 25"
+		add shipyard "MS Ships 25"
+
+outfitter "MS Outfits 25" # calition advanced
+	"Large Shield Module"
+	"Large Repair Module"
+
+shipyard "MS Ships 25" # coalition advanced
+	"Arach Hulk"
+	"Arach Spindle"
+	"Kimek Spire"
+	"Saryd Sojourner"
