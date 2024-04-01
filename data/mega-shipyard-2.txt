@@ -29,3 +29,40 @@ shipyard "MS Ships 22" # efreti ships
   "Echo-Galleon"
   "Arch-Carrack"
   "Charm-Shallop"
+
+
+# Level 23
+
+mission "Mega Shipyard: Level 23" # coalition basics
+	landing
+	source "Ring of Friendship"
+	destination "Watcher"
+	to offer
+		"combat rating" > 40000
+	on complete
+		event "MS Level 23"
+
+event "MS Level 23"
+	planet "Watcher"
+		add outfitter "MS Outfits 23"
+		add shipyard "MS Ships 23"
+
+outfitter "MS Outfits 23" # calition basics
+	"Coalition License"
+	"Small Collector Module"
+	"Small Cogeneration Module"
+	"Small Battery Module"
+	"Small Shield Module"
+	"Small Repair Module"
+	"Cooling Module"
+	"Small Thrust Module"
+	"Small Reverse Module"
+	"Small Steering Module"
+
+shipyard "MS Ships 23" # coalition basics
+	"Arach Courier"
+	"Arach Transport"
+	"Kimek Briar"
+	"Kimek Thorn"
+	"Saryd Runabout"
+	"Saryd Visitor"
