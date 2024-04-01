@@ -4,7 +4,7 @@ Just a plugin i made for Endless Sky as a test, don't expect much, just using th
 # mega shipyard template
 mission "Mega Shipyard: Level #"
 	landing
-	source "New Boston"
+	source "#"
 	destination "Watcher"
 	to offer
 		"combat rating" > #
