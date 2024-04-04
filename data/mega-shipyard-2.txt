@@ -131,7 +131,7 @@ shipyard "MS Ships 25" # coalition advanced
 
 mission "Mega Shipyard: Level 26" # bunrodea basics
 	landing
-	source "Kifrana Terberah"
+	source "Kisarra"
 	destination "Watcher"
 	to offer
 		"combat rating" > 53000
@@ -167,7 +167,7 @@ shipyard "MS Ships 26" # bunrodea basics
 
 mission "Mega Shipyard: Level 27" # bunrodea intermediate
 	landing
-	source "Kifrana Terberah"
+	source "Kisarra"
 	destination "Watcher"
 	to offer
 		"combat rating" > 55000
@@ -200,7 +200,7 @@ shipyard "MS Ships 27" # bunrodea intermediate
 
 mission "Mega Shipyard: Level 28" # bunrodea advanced
 	landing
-	source "Kifrana Terberah"
+	source "Kisarra"
 	destination "Watcher"
 	to offer
 		"combat rating" > 58000
@@ -230,7 +230,7 @@ shipyard "MS Ships 28" # bunrodea advanced
 
 mission "Mega Shipyard: Level 29" # bunrodea uhh idk
 	landing
-	source "Kifrana Terberah"
+	source "Kisarra"
 	destination "Watcher"
 	to offer
 		"combat rating" > 60000
