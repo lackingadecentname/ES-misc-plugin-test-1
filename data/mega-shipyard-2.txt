@@ -125,3 +125,127 @@ shipyard "MS Ships 25" # coalition advanced
 	"Arach Spindle"
 	"Kimek Spire"
 	"Saryd Sojourner"
+
+
+# Level 26
+
+mission "Mega Shipyard: Level 26" # bunrodea basics
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 53000
+	on complete
+		event "MS Level 26"
+
+event "MS Level 26"
+	planet "Watcher"
+		add outfitter "MS Outfits 26"
+		add shipyard "MS Ships 26"
+
+outfitter "MS Outfits 26" # bunrodea basics
+	"Shield Relay Booster"
+	"Shield Relay Limiter"
+	"Small Shield Relay"
+	"Nanite Enhancer"
+	"Nanite Limiter"
+	"Small Nanite Fabricator"
+	"Solar Battery"
+	"Solar Cell"
+	"Reactor Overclocker"
+	"Reactor Limiter"
+	"Lasher Pistol"
+	"Chiisana Rift Thruster"
+	"Chiisana Rift Steering"
+	"Locust Blaster"
+
+shipyard "MS Ships 26" # bunrodea basics
+	"Kaiken"
+
+
+# Level 27
+
+mission "Mega Shipyard: Level 27" # bunrodea intermediate
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 55000
+	on complete
+		event "MS Level 27"
+
+event "MS Level 27"
+	planet "Watcher"
+		add outfitter "MS Outfits 27"
+		add shipyard "MS Ships 27"
+
+outfitter "MS Outfits 27" # bunrodea intermediate
+	"Nami Rift Thruster"
+	"Nami Rift Steering"
+	"Ookii Rift Thruster"
+	"Ookii Rift Steering"
+	"Quark Reactor"
+	"Mandible Cannon"
+	"Swarm Clip"
+	"Swarm Missile"
+	"Swarm Pod"
+	"Buzzer Anti-Missile"
+
+shipyard "MS Ships 27" # bunrodea intermediate
+	"Tanto"
+	"Kunai"
+
+
+# Level 28
+
+mission "Mega Shipyard: Level 28" # bunrodea advanced
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 58000
+	on complete
+		event "MS Level 28"
+
+event "MS Level 28"
+	planet "Watcher"
+		add outfitter "MS Outfits 28"
+		add shipyard "MS Ships 28"
+
+outfitter "MS Outfits 28" # bunrodea advanced
+	"Large Shield Relay"
+	"Large Nanite Fabricator"
+	"Electroweak Reactor"
+	"Subarashii Rift Thruster"
+	"Subarashii Rift Steering"
+	"Locust Turret"
+
+shipyard "MS Ships 28" # bunrodea advanced
+	"Sasumata"
+	"Tekkan"
+	"Kama"
+
+
+# Level 29
+
+mission "Mega Shipyard: Level 29" # bunrodea uhh idk
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 60000
+	on complete
+		event "MS Level 29"
+
+event "MS Level 29"
+	planet "Watcher"
+		add outfitter "MS Outfits 29"
+		add shipyard "MS Ships 29"
+
+outfitter "MS Outfits 29"
+	"Dark Reactor"
+	"Thorax Cannon"
+
+shipyard "MS Ships 29"
+	"Ararebo"
+	"Chigiriki"
