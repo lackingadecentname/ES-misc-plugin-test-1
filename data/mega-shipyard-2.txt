@@ -194,3 +194,58 @@ outfitter "MS Outfits 27" # bunrodea intermediate
 shipyard "MS Ships 27" # bunrodea intermediate
 	"Tanto"
 	"Kunai"
+
+
+# Level 28
+
+mission "Mega Shipyard: Level 28" # bunrodea advanced
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 58000
+	on complete
+		event "MS Level 28"
+
+event "MS Level 28"
+	planet "Watcher"
+		add outfitter "MS Outfits 28"
+		add shipyard "MS Ships 28"
+
+outfitter "MS Outfits 28" # bunrodea advanced
+	"Large Shield Relay"
+	"Large Nanite Fabricator"
+	"Electroweak Reactor"
+	"Subarashii Rift Thruster"
+	"Subarashii Rift Steering"
+	"Locust Turret"
+
+shipyard "MS Ships 28" # bunrodea advanced
+	"Sasumata"
+	"Tekkan"
+	"Kama"
+
+
+# Level 29
+
+mission "Mega Shipyard: Level 29" # bunrodea uhh idk
+	landing
+	source "Kifrana Terberah"
+	destination "Watcher"
+	to offer
+		"combat rating" > 60000
+	on complete
+		event "MS Level 29"
+
+event "MS Level 29"
+	planet "Watcher"
+		add outfitter "MS Outfits 29"
+		add shipyard "MS Ships 29"
+
+outfitter "MS Outfits 29"
+	"Dark Reactor"
+	"Thorax Cannon"
+
+shipyard "MS Ships 29"
+	"Ararebo"
+	"Chigiriki"
