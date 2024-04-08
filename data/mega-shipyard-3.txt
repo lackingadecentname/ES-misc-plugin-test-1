@@ -1,1 +1,21 @@
+# Level 30
 
+mission "Mega Shipyard: Level 30" # remnant basics
+	landing
+	source "#"
+	destination "Watcher"
+	to offer
+		"combat rating" > #
+	on complete
+		event "MS Level 30"
+
+event "MS Level 30"
+	planet "Watcher"
+		add outfitter "MS Outfits 30"
+		add shipyard "MS Ships 30"
+
+outfitter "MS Outfits 30"
+	
+
+shipyard "MS Ships 30"
+	
