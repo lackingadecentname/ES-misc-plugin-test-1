@@ -138,4 +138,28 @@ outfitter "MS Outfits 34"
 
 shipyard "MS Ships 34"
 	"Penguin"
-	
+
+# Level 35
+
+mission "Mega Shipyard: Level 35" # remnant storyline 2
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 83000
+	on complete
+		event "MS Level 35"
+
+event "MS Level 35"
+	planet "Watcher"
+		add outfitter "MS Outfits 35"
+		add shipyard "MS Ships 35"
+
+outfitter "MS Outfits 35"
+	"Inhibitor Turret"
+	"Bellows-Class Afterburner"
+
+shipyard "MS Ships 35"
+	"Merganser"
+	"Peregrine"
+	"Modified Dromedary"
