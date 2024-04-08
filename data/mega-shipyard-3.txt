@@ -89,3 +89,26 @@ shipyard "MS Ships 32"
 	"Gull"
 	"Ibis"
 	"Starling"
+
+# Level 33
+
+mission "Mega Shipyard: Level 33" # remnant capital
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 77500
+	on complete
+		event "MS Level 33"
+
+event "MS Level 33"
+	planet "Watcher"
+		add outfitter "MS Outfits 33"
+		add shipyard "MS Ships 33"
+
+outfitter "MS Outfits 33"
+	"Remnant Capital License"
+
+shipyard "MS Ships 33"
+	"Albatross"
+	"Pelican"
