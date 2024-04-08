@@ -35,3 +35,30 @@ shipyard "MS Ships 30"
 	"Puffin"
 	"Smew"
 	"Tern"
+
+# Level 31
+
+mission "Mega Shipyard: Level 31" # remnant intermediate
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 73000
+	on complete
+		event "MS Level 31"
+
+event "MS Level 31"
+	planet "Watcher"
+		add outfitter "MS Outfits 31"
+		add shipyard "MS Ships 31"
+
+outfitter "MS Outfits 31"
+	"Thrasher Turret"
+	"EMP Torpedo Storage Bay"
+	"EMP Torpedo Bay"
+	"Epoch Cell"
+	"Forge-Class Thruster"
+	"Forge-Class Steering"
+
+shipyard "MS Ships 31"
+	
