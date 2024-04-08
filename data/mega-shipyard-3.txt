@@ -61,4 +61,31 @@ outfitter "MS Outfits 31"
 	"Forge-Class Steering"
 
 shipyard "MS Ships 31"
-	
+
+
+# Level 32
+
+mission "Mega Shipyard: Level 32" # remnant advanced
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 75000
+	on complete
+		event "MS Level 32"
+
+event "MS Level 32"
+	planet "Watcher"
+		add outfitter "MS Outfits 32"
+		add shipyard "MS Ships 32"
+
+outfitter "MS Outfits 32"
+	"Point Defense Turret"
+	"Aeon Cell"
+	"Smelter-Class Thruster"
+	"Smelter-Class Steering"
+
+shipyard "MS Ships 32"
+	"Gull"
+	"Ibis"
+	"Starling"
