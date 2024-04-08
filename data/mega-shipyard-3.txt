@@ -1,1 +1,165 @@
+# Level 30
 
+mission "Mega Shipyard: Level 30" # remnant basics
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 70000
+	on complete
+		event "MS Level 30"
+
+event "MS Level 30"
+	planet "Watcher"
+		add outfitter "MS Outfits 30"
+		add shipyard "MS Ships 30"
+
+outfitter "MS Outfits 30"
+	"Remnant License"
+	"Inhibitor Cannon"
+	"Thrasher Cannon"
+	"EMP Torpedo"
+	"Crystal Capacitor"
+	"Millennium Cell"
+	"Thermoelectric Cooler"
+	"Emergency Ramscoop"
+	"Quantum Key Stone"
+	"Salvage Scanner"
+	"Anvil-Class Engine"
+	"Crucible-Class Thruster"
+	"Crucible-Class Steering"
+	"Tuning Rifle"
+
+shipyard "MS Ships 30"
+	"Petrel"
+	"Puffin"
+	"Smew"
+	"Tern"
+
+# Level 31
+
+mission "Mega Shipyard: Level 31" # remnant intermediate
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 73000
+	on complete
+		event "MS Level 31"
+
+event "MS Level 31"
+	planet "Watcher"
+		add outfitter "MS Outfits 31"
+		add shipyard "MS Ships 31"
+
+outfitter "MS Outfits 31"
+	"Thrasher Turret"
+	"EMP Torpedo Storage Bay"
+	"EMP Torpedo Bay"
+	"Epoch Cell"
+	"Forge-Class Thruster"
+	"Forge-Class Steering"
+
+shipyard "MS Ships 31"
+
+
+# Level 32
+
+mission "Mega Shipyard: Level 32" # remnant advanced
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 75000
+	on complete
+		event "MS Level 32"
+
+event "MS Level 32"
+	planet "Watcher"
+		add outfitter "MS Outfits 32"
+		add shipyard "MS Ships 32"
+
+outfitter "MS Outfits 32"
+	"Point Defense Turret"
+	"Aeon Cell"
+	"Smelter-Class Thruster"
+	"Smelter-Class Steering"
+
+shipyard "MS Ships 32"
+	"Gull"
+	"Ibis"
+	"Starling"
+
+# Level 33
+
+mission "Mega Shipyard: Level 33" # remnant capital
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 77500
+	on complete
+		event "MS Level 33"
+
+event "MS Level 33"
+	planet "Watcher"
+		add outfitter "MS Outfits 33"
+		add shipyard "MS Ships 33"
+
+outfitter "MS Outfits 33"
+	"Remnant Capital License"
+
+shipyard "MS Ships 33"
+	"Albatross"
+	"Pelican"
+
+# Level 34
+
+mission "Mega Shipyard: Level 34" # remnant storyline 1
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 80000
+	on complete
+		event "MS Level 34"
+
+event "MS Level 34"
+	planet "Watcher"
+		add outfitter "MS Outfits 34"
+		add shipyard "MS Ships 34"
+
+outfitter "MS Outfits 34"
+	"Teciimach Canister"
+	"Teciimach Canister Rack"
+	"Teciimach Bay"
+	"Teciimach Pod"
+	"Research Laboratory"
+
+shipyard "MS Ships 34"
+	"Penguin"
+
+# Level 35
+
+mission "Mega Shipyard: Level 35" # remnant storyline 2
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 83000
+	on complete
+		event "MS Level 35"
+
+event "MS Level 35"
+	planet "Watcher"
+		add outfitter "MS Outfits 35"
+		add shipyard "MS Ships 35"
+
+outfitter "MS Outfits 35"
+	"Inhibitor Turret"
+	"Bellows-Class Afterburner"
+
+shipyard "MS Ships 35"
+	"Merganser"
+	"Peregrine"
+	"Modified Dromedary"
