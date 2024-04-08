@@ -112,3 +112,30 @@ outfitter "MS Outfits 33"
 shipyard "MS Ships 33"
 	"Albatross"
 	"Pelican"
+
+# Level 34
+
+mission "Mega Shipyard: Level 34" # remnant storyline 1
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 80000
+	on complete
+		event "MS Level 34"
+
+event "MS Level 34"
+	planet "Watcher"
+		add outfitter "MS Outfits 34"
+		add shipyard "MS Ships 34"
+
+outfitter "MS Outfits 34"
+	"Teciimach Canister"
+	"Teciimach Canister Rack"
+	"Teciimach Bay"
+	"Teciimach Pod"
+	"Research Laboratory"
+
+shipyard "MS Ships 34"
+	"Penguin"
+	
