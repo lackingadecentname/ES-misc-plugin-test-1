@@ -8,3 +8,15 @@ mission "Kasichara A'awoj"
 		"combat rating" > 32500
 	on complete
     give ship "Kasichara A'awoj" "Korsmanath"
+
+# Outfits rewarded at the end of the remnant expansion
+
+mission "Remnant Outfits"
+	landing
+	source "Viminal"
+	destination "Watcher"
+	to offer
+		"combat rating" > 83000
+	on complete
+    		outfit "Cloaking Device"
+		outfit "Ember Tear"
