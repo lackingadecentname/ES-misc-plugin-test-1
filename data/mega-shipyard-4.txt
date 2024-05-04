@@ -1,0 +1,35 @@
+# Level 41
+
+mission "Mega Shipyard: Level 41" # t1 pug
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 110000
+	on complete
+		event "MS Level 41"
+
+event "MS Level 41"
+	planet "Watcher"
+		add outfitter "MS Outfits 41"
+		add shipyard "MS Ships 41"
+
+outfitter "MS Outfits 41"
+  "Pug Zapper"
+  "Pug Zapper Turret"
+  "Pug Seeker"
+  "Pug Anti-Missile"
+  "Pug Akfar Thruster"
+  "Pug Akfar Steering"
+  "Pug Cormet Thruster"
+  "Pug Cormet Steering"
+  "Pug Lohmar Thruster"
+  "Pug Lohmar Steering"
+  "Pug Biodefenses"
+  "Pug Peacekeeping Staff"
+
+shipyard "MS Ships 41"
+  "Pug Zibruka"
+  "Pug Enfolta"
+  "Pug Maboro"
+  
