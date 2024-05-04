@@ -163,3 +163,151 @@ shipyard "MS Ships 35"
 	"Merganser"
 	"Peregrine"
 	"Modified Dromedary"
+
+# Level 36
+
+mission "Mega Shipyard: Level 36" # Ka'Het 1
+	landing
+	source "Kaeyin"
+	destination "Watcher"
+	to offer
+		"combat rating" > 87000
+	on complete
+		event "MS Level 36"
+
+event "MS Level 36"
+	planet "Watcher"
+		add outfitter "MS Outfits 36"
+		add shipyard "MS Ships 36"
+
+outfitter "MS Outfits 36"
+	"Ka'het Ravager Beam"
+	"Ka'het Ravager Turret"
+	"Ka'het Annihilator"
+	"Ka'het Annihilator Turret"
+	"Ka'het EMP Deployer"
+	"Ka'het Support Cooling"
+	"Ka'het Primary Cooling"
+	"Ka'het Shield Restorer"
+	"Ka'het MHD Generator"
+	"Ka'het Reserve Accumulator"
+	"Ka'het Sustainer Nacelles"
+	"Ka'het Compact Engine"
+	"Maeri Engine Nacelles"
+
+shipyard "MS Ships 36" # the drones
+	"Selii'mar"
+	"Faes'mar"
+
+
+# Level 37
+
+mission "Mega Shipyard: Level 37" # Ka'Het 2
+	landing
+	source "Kaeyin"
+	destination "Watcher"
+	to offer
+		"combat rating" > 92500
+	on complete
+		event "MS Level 37"
+
+event "MS Level 37"
+	planet "Watcher"
+		add outfitter "MS Outfits 37"
+		add shipyard "MS Ships 37"
+
+outfitter "MS Outfits 37"
+	"Ka'het Nullifier"
+	"Ka'het Emergency Deployer"
+	"Ka'het Grand Restorer"
+	"Telis Engine Nacelles"
+	"Vareti Engine Block"
+
+shipyard "MS Ships 37" # none
+
+# Level 38
+
+mission "Mega Shipyard: Level 38" # pre-storyline wanderers 1
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 98000
+	on complete
+		event "MS Level 38"
+
+event "MS Level 38"
+	planet "Watcher"
+		add outfitter "MS Outfits 38"
+		add shipyard "MS Ships 38"
+
+outfitter "MS Outfits 38"
+	"Sunbeam"
+	"Thunderhead Launcher"
+	"Thunderhead Missile"
+	"Thunderhead Storage Array"
+	"Small Biochemical Cell"
+	"Large Biochemical Cell"
+	"Yellow Sun Reactor"
+	"White Sun Reactor"
+	"Bright Cloud Shielding"
+	"Dark Storm Shielding"
+	"Wanderer Ramscoop"
+	"Type 1 Radiant Thruster"
+	"Type 2 Radiant Thruster"
+	"Type 3 Radiant Thruster"
+	"Type 4 Radiant Thruster"
+	"Type 1 Radiant Steering"
+	"Type 2 Radiant Steering"
+	"Type 3 Radiant Steering"
+	"Type 4 Radiant Steering"
+	"Wanderer Outfits License"
+
+shipyard "MS Ships 38"
+
+
+# Level 39
+
+mission "Mega Shipyard: Level 39" # pre-storyline wanderers 2
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 102500
+	on complete
+		event "MS Level 39"
+
+event "MS Level 39"
+	planet "Watcher"
+		add outfitter "MS Outfits 39"
+		add shipyard "MS Ships 39"
+
+outfitter "MS Outfits 39"
+	"Wanderer License"
+
+shipyard "MS Ships 39"
+	"Earth Shaper"
+	"Summer Leaf"
+
+# Level 40
+
+mission "Mega Shipyard: Level 40" # pre-storyline wanderers 3
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 107500
+	on complete
+		event "MS Level 40"
+
+event "MS Level 40"
+	planet "Watcher"
+		add outfitter "MS Outfits 40"
+		add shipyard "MS Ships 40"
+
+outfitter "MS Outfits 40"
+	
+
+shipyard "MS Ships 40"
+	"Deep River"
+	"Strong Wind"
