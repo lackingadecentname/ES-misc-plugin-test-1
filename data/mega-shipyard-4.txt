@@ -33,3 +33,75 @@ shipyard "MS Ships 41"
   "Pug Enfolta"
   "Pug Maboro"
   
+# Level 42
+
+mission "Mega Shipyard: Level 42" # pre-eye wanderers 1
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 115000
+	on complete
+		event "MS Level 42"
+
+event "MS Level 42"
+	planet "Watcher"
+		add outfitter "MS Outfits 42"
+		add shipyard "MS Ships 42"
+
+outfitter "MS Outfits 42"
+	"Wanderer Military License"
+	"Wanderer Anti-Missile"
+	"Sunbeam Turret"
+	"Red Sun Reactor"
+	"Wanderer Heat Sink"
+
+shipyard "MS Ships 42"
+	"Flycatcher"
+	"Autumn Leaf"
+	"Deep River Transport"
+
+# Level 43
+
+mission "Mega Shipyard: Level 43" # pre-eye wanderers 2
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 127500
+	on complete
+		event "MS Level 43"
+
+event "MS Level 43"
+	planet "Watcher"
+		add outfitter "MS Outfits 43"
+		add shipyard "MS Ships 43"
+
+outfitter "MS Outfits 43"
+	"Dual Sunbeam Turret"
+	"Blue Sun Reactor"
+
+shipyard "MS Ships 43"
+	"Riptide"
+	"Tempest"
+
+# Level 44
+
+mission "Mega Shipyard: Level 44" # the fucking derecho lmao
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 135000
+	on complete
+		event "MS Level 44"
+
+event "MS Level 44"
+	planet "Watcher"
+		add outfitter "MS Outfits 44"
+		add shipyard "MS Ships 44"
+
+outfitter "MS Outfits 44"
+
+shipyard "MS Ships 44"
+	"Derecho"
