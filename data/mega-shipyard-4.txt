@@ -33,3 +33,30 @@ shipyard "MS Ships 41"
   "Pug Enfolta"
   "Pug Maboro"
   
+# Level 41
+
+mission "Mega Shipyard: Level 42" # pre-eye wanderers 1
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 115000
+	on complete
+		event "MS Level 42"
+
+event "MS Level 42"
+	planet "Watcher"
+		add outfitter "MS Outfits 42"
+		add shipyard "MS Ships 42"
+
+outfitter "MS Outfits 42"
+	"Wanderer Military License"
+	"Wanderer Anti-Missile"
+	"Sunbeam Turret"
+	"Red Sun Reactor"
+	"Wanderer Heat Sink"
+
+shipyard "MS Ships 42"
+	"Flycatcher"
+	"Autumn Leaf"
+	"Deep River Transport"
