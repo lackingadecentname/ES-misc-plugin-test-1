@@ -33,7 +33,7 @@ shipyard "MS Ships 41"
   "Pug Enfolta"
   "Pug Maboro"
   
-# Level 41
+# Level 42
 
 mission "Mega Shipyard: Level 42" # pre-eye wanderers 1
 	landing
@@ -60,3 +60,27 @@ shipyard "MS Ships 42"
 	"Flycatcher"
 	"Autumn Leaf"
 	"Deep River Transport"
+
+# Level 43
+
+mission "Mega Shipyard: Level 43" # pre-eye wanderers 2
+	landing
+	source "Vara Pug"
+	destination "Watcher"
+	to offer
+		"combat rating" > 127500
+	on complete
+		event "MS Level 43"
+
+event "MS Level 43"
+	planet "Watcher"
+		add outfitter "MS Outfits 43"
+		add shipyard "MS Ships 43"
+
+outfitter "MS Outfits 43"
+	"Dual Sunbeam Turret"
+	"Blue Sun Reactor"
+
+shipyard "MS Ships 43"
+	"Riptide"
+	"Tempest"
